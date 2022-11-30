@@ -16,9 +16,9 @@ fi
 #search the file and print the path
 #
 check=$(find ~ -name $name -print)
-if [ "$look" = "0" ] && [ "$check" != "$empty" ] && [[ "$check" != "$empty" ]]
+if [ "$look" = "0" ] && [[ "$check" != "$empty" ]]
 then
-	echo "\"file found\" path : " $check
+	echo -e "\"file found\" path : " $check "\n (NOTE : check log.txt -created in current directory by this script- for file path!)"
 fi
 if [[ "$check" == *"$name"* ]] && [ "$look" = "0" ] && [[ "$check" != "$empty" ]]
 then

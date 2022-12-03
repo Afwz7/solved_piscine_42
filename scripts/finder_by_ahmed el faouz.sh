@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# note : i dont use exit status trick cz i wanna practice conditionnals!
+#
 #this is the interface
 #
 clear

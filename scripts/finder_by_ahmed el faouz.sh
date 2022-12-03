@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# note : i dont use exit status trick cz i wanna practice conditionnals!
+# note : i dont use exit status trick or case syntax because i wanna practice my if conditionnals!
 #
 #this is the interface
 #

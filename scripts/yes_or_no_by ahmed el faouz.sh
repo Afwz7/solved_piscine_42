@@ -7,7 +7,7 @@ echo -e "\t\tYES OR NO GUESSING SCRIPT \"YNS\" created by AHMED EL FAOUZ\n"
 read -p 'press enter to start !! ' pl
 echo ""
 #
-#Randomize the answer in print it in the output.
+#Randomize the answer and print it in the standard output.
 #
 read -p 'type in a yes or no question : ' yon
 luck=$(( yon % 2 ))

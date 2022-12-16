@@ -6,7 +6,7 @@
 /*   By: ael-faou <ael-faou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/10 20:41:24 by ael-faou          #+#    #+#             */
-/*   Updated: 2022/12/10 20:45:23 by ael-faou         ###   ########.fr       */
+/*   Updated: 2022/12/15 19:40:47 by ael-faou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ void	ft_countdown(void)
 int	main(void)
 {
 	ft_countdown();
-	return(0);
+	return (0);
 }

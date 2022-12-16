@@ -6,7 +6,7 @@
 /*   By: ael-faou <ael-faou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 19:06:31 by ael-faou          #+#    #+#             */
-/*   Updated: 2022/12/12 19:08:00 by ael-faou         ###   ########.fr       */
+/*   Updated: 2022/12/15 19:44:47 by ael-faou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	ft_bug(char *str)
 
 int	nb_base(char str, char *base)
 {
-	int nb;
+	int	nb;
 
 	nb = 0;
 	while (base[nb] != '\0')
@@ -69,7 +69,7 @@ int	whitespaces(char *str, int *ptr_i)
 	return (count);
 }
 
-int		ft_atoi_base(char *str, char *base)
+int	ft_atoi_base(char *str, char *base)
 {
 	int		i;
 	int		negative;

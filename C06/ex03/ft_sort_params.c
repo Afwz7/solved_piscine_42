@@ -6,7 +6,7 @@
 /*   By: ael-faou <ael-faou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 19:27:44 by ael-faou          #+#    #+#             */
-/*   Updated: 2022/12/21 10:20:16 by ael-faou         ###   ########.fr       */
+/*   Updated: 2022/12/21 16:42:57 by ael-faou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,9 @@ void	ft_swap(char **a1, char **a2)
 int	ft_strcmp(char *str1, char *str2)
 {
 	int	i;
-	int	j;
 
 	i = 0;
-	j = 0;
-	while (str1[i] == str2[j]
+	while (str1[i] == str2[i]
 		&& (str2[i] != '\0' && str2[i] != '\0'))
 	{
 		i++;

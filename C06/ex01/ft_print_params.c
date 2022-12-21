@@ -6,7 +6,7 @@
 /*   By: ael-faou <ael-faou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 18:45:33 by ael-faou          #+#    #+#             */
-/*   Updated: 2022/12/15 19:03:29 by ael-faou         ###   ########.fr       */
+/*   Updated: 2022/12/21 10:21:57 by ael-faou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	ft_putstr_given_args(int index, char **str)
 	while (i < index)
 	{
 		j = 0;
-		while(str[i][j] != '\0')
+		while (str[i][j] != '\0')
 		{
 			ft_putchar(str[i][j]);
 			j++;

@@ -6,7 +6,7 @@
 /*   By: ael-faou <ael-faou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 19:27:44 by ael-faou          #+#    #+#             */
-/*   Updated: 2022/12/21 09:49:55 by ael-faou         ###   ########.fr       */
+/*   Updated: 2022/12/21 10:20:16 by ael-faou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_strcmp(char *str1, char *str2)
 	i = 0;
 	j = 0;
 	while (str1[i] == str2[j]
-			&& (str2[i] != '\0' && str2[i] != '\0'))
+		&& (str2[i] != '\0' && str2[i] != '\0'))
 	{
 		i++;
 	}
@@ -46,14 +46,14 @@ void	ft_putstr(char *str)
 	int	i;
 
 	i = 0;
-	while(str[i] != '\0')
+	while (str[i] != '\0')
 	{
 		ft_putchar(str[i]);
 		i++;
 	}
 }
 
-void	ft_sort_params(int index, char **stack)
+int	main(int index, char **stack)
 {
 	int	j;
 	int	cntr;
@@ -79,10 +79,5 @@ void	ft_sort_params(int index, char **stack)
 		ft_putchar('\n');
 		j++;
 	}
-}
-
-int	main(int ac, char **av)
-{
-	ft_sort_params(ac, av);
 	return (0);
 }

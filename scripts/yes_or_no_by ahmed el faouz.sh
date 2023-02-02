@@ -10,7 +10,7 @@ echo ""
 #Randomize the answer and print it in the standard output.
 #
 read -p 'type in a yes or no question : ' yon
-luck=$(( yon % 2 ))
+luck=$(( $RANDOM % 2 ))
 #
 #
 if [[ "$yon" != "$empty" ]]
